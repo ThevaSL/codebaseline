@@ -300,7 +300,8 @@ public class cgUI extends javax.swing.JFrame implements IUnitLister, IStudentLis
         pack();
     }// </editor-fold>//GEN-END:initComponents
 
-    private void jComboBox1ItemStateChanged(java.awt.event.ItemEvent evt) {// GEN-FIRST:event_jComboBox1ItemStateChanged
+    private void jComboBox1ItemStateChanged(java.awt.event.ItemEvent evt) {
+        // GEN-FIRST:event_jComboBox1ItemStateChanged
         String cU = (String) jComboBox1.getSelectedItem();
         Refresh3();
         clearStudents();
@@ -312,7 +313,8 @@ public class cgUI extends javax.swing.JFrame implements IUnitLister, IStudentLis
         }
     }// GEN-LAST:event_jComboBox1ItemStateChanged
 
-    private void jComboBox2ItemStateChanged(java.awt.event.ItemEvent evt) {// GEN-FIRST:event_jComboBox2ItemStateChanged
+    private void jComboBox2ItemStateChanged(java.awt.event.ItemEvent evt) {
+        // GEN-FIRST:event_jComboBox2ItemStateChanged
         Refresh3();
         String cS = (String) jComboBox2.getSelectedItem();
         if (evt.getStateChange() == java.awt.event.ItemEvent.SELECTED) {
@@ -326,7 +328,8 @@ public class cgUI extends javax.swing.JFrame implements IUnitLister, IStudentLis
         }
     }// GEN-LAST:event_jComboBox2ItemStateChanged
 
-    private void jButton3ActionPerformed(java.awt.event.ActionEvent evt) {// GEN-FIRST:event_jButton3ActionPerformed
+    private void jButton3ActionPerformed(java.awt.event.ActionEvent evt) {
+        // GEN-FIRST:event_jButton3ActionPerformed
         f1 = new Float(jTextField1.getText()).floatValue();
         f2 = new Float(jTextField2.getText()).floatValue();
         f3 = new Float(jTextField3.getText()).floatValue();
@@ -340,18 +343,21 @@ public class cgUI extends javax.swing.JFrame implements IUnitLister, IStudentLis
         }
     }// GEN-LAST:event_jButton3ActionPerformed
 
-    private void jButton1ActionPerformed(java.awt.event.ActionEvent evt) {// GEN-FIRST:event_jButton1ActionPerformed
+    private void jButton1ActionPerformed(java.awt.event.ActionEvent evt) {
+        // GEN-FIRST:event_jButton1ActionPerformed
         ctl.enableChangeMarks();
         jLabel5.setText("");
         //lblErrMsg.setText("");
     }// GEN-LAST:event_jButton1ActionPerformed
 
-    private void jTextFieldKeyTyped(java.awt.event.KeyEvent evt) {// GEN-FIRST:event_jTextField1KeyTyped
+    private void jTextFieldKeyTyped(java.awt.event.KeyEvent evt) {
+        // GEN-FIRST:event_jTextField1KeyTyped
         jLabel5.setText("");
         jlabel6.setText("");
     }// GEN-LAST:event_jTextField1KeyTyped
 
-    private void jButton2ActionPerformed(java.awt.event.ActionEvent evt) {// GEN-FIRST:event_jButton2ActionPerformed
+    private void jButton2ActionPerformed(java.awt.event.ActionEvent evt) {
+        // GEN-FIRST:event_jButton2ActionPerformed
         float asg1 = new Float(jTextField1.getText()).floatValue();
         float asg2 = new Float(jTextField2.getText()).floatValue();
         float exam = new Float(jTextField3.getText()).floatValue();

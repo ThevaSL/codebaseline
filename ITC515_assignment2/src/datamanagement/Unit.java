@@ -12,9 +12,7 @@ public class Unit implements IUnit {
 
 	private StudentUnitRecordList rs;
 
-	public Unit(String UC, String un, float f1, float f2, float f3, float f4,
-				float f5, int i1, int i2, int i3, StudentUnitRecordList rl) {
-
+	public Unit(String UC, String un, float f1, float f2, float f3, float f4, float f5, int i1, int i2, int i3, StudentUnitRecordList rl) {
 		uc = UC;
 		UN = un;
 		co2 = f1;
